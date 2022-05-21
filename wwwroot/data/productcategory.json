@@ -1,0 +1,27 @@
+[
+  {
+    "ProductCategoryId": "1",
+    "ProductCategoryName": "Desktops",
+    "ImageUrl": "images/desktop.PNG"
+  },
+  {
+    "ProductCategoryId": "2",
+    "ProductCategoryName": "Laptops",
+    "ImageUrl": "images/laptop.PNG"
+  },
+  {
+    "ProductCategoryId": "3",
+    "ProductCategoryName": "Tablets",
+    "ImageUrl": "images/tablet.PNG"
+  },
+  {
+    "ProductCategoryId": "4",
+    "ProductCategoryName": "Phones",
+    "ImageUrl": "images/phone.PNG"
+  },
+  {
+    "ProductCategoryId": "5",
+    "ProductCategoryName": "Accessories",
+    "ImageUrl": "images/accessories.PNG"
+  }
+]
