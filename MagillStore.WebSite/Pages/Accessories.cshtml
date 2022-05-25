@@ -1,0 +1,30 @@
+﻿@page
+@model MagillStore.WebSite.Pages.AccessoriesModel
+@{
+}
+<div class="text-center">
+    <h1 class="display-4"><b>Accessories</b></h1>
+
+    <div><img border="0" src="~/images/store.PNG" style="width:900px;height:200px;"></div>
+
+</div>
+<br />
+
+<!-- this uses the SQLite database and IEnumerable<Product> interface to display  products -->
+<div class="card-columns">
+    @foreach (var product in Model.Products)
+    {
+        <div class="card">
+            <div class="card">
+                <div class="card-body">
+                    <b>Product:</b> @product.Name <p></p>
+                    <b>Brand:</b> @product.Brand <p></p>
+                    <b>Description:</b> @product.Description <p></p>
+                    <b>Type:</b> @product.Type <p></p>
+                    <b>Price</b> =$@product.Price <p></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+    }
+</div>
